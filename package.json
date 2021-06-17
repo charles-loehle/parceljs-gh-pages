@@ -1,0 +1,27 @@
+{
+	"name": "parceljs-gh-pages",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel index.html",
+		"build": "parcel build index.html",
+		"deploy": "rm -rf dist/ && npm build && gh-pages -d dist"
+	},
+	"homepage": "https://charles-loehle.github.io/parceljs-gh-pages",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charles-loehle/parceljs-gh-pages.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/charles-loehle/parceljs-gh-pages/issues"
+	},
+	"dependencies": {
+		"gh-pages": "^3.2.1"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.5"
+	}
+}
